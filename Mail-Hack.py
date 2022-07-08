@@ -33,7 +33,7 @@ user = input("EMAIL TARGET: ")
 pwd = input("Enter '0' Untuk mendapatkan Password Random\nEnter '1' Untuk Membuat Password Kostum\nOptions: ")
 
 if pwd=='0':
-    passswfile="passworld.txt"
+    passswfile="pass.txt"
 
 elif pwd=='1':
     print("\n")
