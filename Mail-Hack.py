@@ -34,7 +34,7 @@ user = input("EMAIL TARGET: ")
 pwd = input("Enter '0' Untuk mendapatkan Password Email\nEnter '1' Untuk Membuat Password Kostum\nEnter '2' Untuk Cek limit Akun X-Team kamu\nEnter '3' Untuk Membuat Limit Akun X-Team\nOptions: ")
 
 if pwd=='3':
-    passwfile="" 
+    passwfile="xteam.txt" 
     
 elif pwd=='2':
     print("\n") 
