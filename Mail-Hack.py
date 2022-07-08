@@ -11,7 +11,7 @@ CYAN = '\033[0;36'
 colors = ['\033[92m', '\033[91m', '\033[0;33m']
 RAND = random.choice(colors)
 
-GMAIL_PORT = '587
+GMAIL_PORT = '587' 
 
 def artwork():
     print("\n")
