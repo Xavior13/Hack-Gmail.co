@@ -1,7 +1,7 @@
 # Gmail-Hack
 #### Easy gmail hacking in python
 
-> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/Gmail-Hack/blob/main/LICENSE).
+
 
 ---------
 ## Supported systems
