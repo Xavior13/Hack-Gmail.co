@@ -31,8 +31,11 @@ smtp.ehlo()
 smtp.starttls()
 
 user = input("EMAIL TARGET: ")
-pwd = input("Enter '0' Untuk mendapatkan Password Email\nEnter '1' Untuk Membuat Password Kostum\nEnter '2' Untuk Cek limit Akun X-Team kamu\nOptions: ")
+pwd = input("Enter '0' Untuk mendapatkan Password Email\nEnter '1' Untuk Membuat Password Kostum\nEnter '2' Untuk Cek limit Akun X-Team kamu\nEnter '3' Untuk Membuat Limit Akun X-Team\nOptions: ")
 
+if pwd=='3':
+    passwfile="" 
+    
 elif pwd=='2':
     print("\n") 
     passwfile = input("Username/ID X-Team (Akun X-Team):") 
@@ -47,13 +50,13 @@ elif pwd=='1':
 else:
     print("\n")
     print("Tools ini berbayar, silahkan hubungi owner Tools melalui Channel YouTube XAVIOR13...")
-    sys.exit(1)
+    sys.exit(1, 2)
 try:
     passswfile = open(passswfile, "r")
 
 except Exception as e:
     print(e)
-    sys.exit(1)
+    sys.exit(1, 2)
 
 for password in passswfile:
     try:
