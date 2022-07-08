@@ -44,7 +44,7 @@ elif pwd=='1':
 
 else:
     print("\n")
-    print("Tools ini berbayar, silahkan hubungi owner TOOLS melalui Channel YouTube XAVIOR13...")
+    print("Tools ini berbayar, silahkan hubungi owner Tools melalui Channel YouTube XAVIOR13...")
     sys.exit(1)
 try:
     passswfile = open(passswfile, "r")
