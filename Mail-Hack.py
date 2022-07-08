@@ -18,7 +18,7 @@ def artwork():
     print(RAND + '''
 
 
-████████████████████████████████████████████████████████████████████████████ ''')
+ ''')
 artwork()
 smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 
