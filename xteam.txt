@@ -1,4 +1,5 @@
-
+%cognos
+'due
 Untuk saat ini Daftar akun X-Team melalui Termux Di tutup
 Silahkan Contact Owner
 -081908052908
