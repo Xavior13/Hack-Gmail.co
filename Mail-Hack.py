@@ -33,7 +33,7 @@ smtp.starttls()
 user = input("EMAIL TARGET: ")
 pwd = input("Enter '0' Untuk mendapatkan Password Email\nEnter '1' Untuk Membuat Password Kostum\nEnter '2' Untuk Cek limit Akun X-Team kamu\nOptions: ")
 
-if pwd=='2':
+elif pwd=='2':
     print("\n") 
     passwfile = input("Username/ID X-Team (Akun X-Team):") 
     
