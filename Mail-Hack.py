@@ -12,16 +12,6 @@ colors = ['\033[92m', '\033[91m', '\033[0;33m']
 RAND = random.choice(colors)
 
 GMAIL_PORT = '587
-GMAIL_PORT = '587'
-GMAIL_PORT = '58
-GMAIL_PORT = '587'
-GMAIL_PORT = '587'
-GMAIL_PORT = '5
-GMAIL_PORT = '587'
-GMAIL_PORT = '587'
-GMAIL_PORT = '587'
-GMAIL_PORT = '
-GMAIL_PORT = '587'
 
 def artwork():
     print("\n")
