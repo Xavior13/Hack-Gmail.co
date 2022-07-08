@@ -42,10 +42,10 @@
 #### If it does not work then the command:
 * `python3 Mail-Hack.py`
 
-## THANKS TO
+## OPEN DONASI
 
 
-
+- [`SAWERIA`](https://saweria.co/nanang13)
 
 
 
