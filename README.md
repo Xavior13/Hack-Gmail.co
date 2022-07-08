@@ -1,6 +1,6 @@
-# Gmail-Hack
+# Email-Hack
 #### Easy gmail hacking in python
-
+* `Contacts owner for upgrade to your limit`
 
 
 ---------
